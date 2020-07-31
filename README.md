@@ -38,19 +38,9 @@ It's 3 major components are:
     Containers
     Rows
     Columns
-`
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>`
+
+
+      `One of three columns`
+
 
 
