@@ -87,6 +87,15 @@ Fuild spans the whole page while non fuild centers in the middleware with a flex
             </div>
         </div>
 
+## Column Sizing
+
+To display different size at different break points.
+
+    .col-	.col-sm-	.col-md-	.col-lg-	.col-xl-
+    
+    <div class="col-sm">
+
+
 ## Style Content
 
 Styling content using Bootstrap Content, Utility, and Typography classes.
@@ -137,6 +146,15 @@ Image fluid makes sure that the image is never bigger that is parent component
 
 ## Text size and centering
 
-    <h1 class="display-4 text-center">Schedule</h1>
+    <h1 class="display-4 text-center mx-5">Speakers</h1>
+
+## Typography
+
+To applie a grey font color we can use the text-muted
+
+    <h3>
+        Fancy display heading
+        <small class="text-muted">With faded secondary text</small>
+    </h3>
 
 
