@@ -28,7 +28,29 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 "Front-End WebApp with Bootstrap" 
 
 ## Start App
+
+Starting the App with intoduction to bootstrap components
+
 ## Bootstrap Grid System
 
-Testing testing 
+Bootstrap uses a 12 column system to organize the grid
+It's 3 major components are:
+    Containers
+    Rows
+    Columns
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div>
+
 
