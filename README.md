@@ -92,9 +92,57 @@ Fuild spans the whole page while non fuild centers in the middleware with a flex
 To display different size at different break points.
 
     .col-	.col-sm-	.col-md-	.col-lg-	.col-xl-
-    
+
     <div class="col-sm">
 
+## Reordering and Offsetting Columns
+
+    <div class="container">
+    <div class="row">
+        <div class="col">
+        First in DOM, no order applied
+        </div>
+        <div class="col order-12">
+        Second in DOM, with a larger order
+        </div>
+        <div class="col order-1">
+        Third in DOM, with an order of 1
+        </div>
+    </div>
+    </div>
+
+
+    <div class="col-lg order-lg-3">
+
+
+## Setting the width of a column
+
+    <div class="col-md col-xl-5">
+
+## Moving a component in the column to the right hand side we can use 
+
+Margin left auto ml-auto 
+  <div class="col-md col-xl-5 ml-auto">
+
+
+## Hidding and component e.g. Images on small device 
+
+Go to Utilities Display.
+d-none hides content in extra small devices and up
+Screen Size	Class.
+
+Hidden on all	    .d-none
+Hidden only on xs	.d-none     .d-sm-block
+Hidden only on sm	.d-sm-none  .d-md-block
+Hidden only on md	.d-md-none  .d-lg-block
+Hidden only on lg	.d-lg-none  .d-xl-block
+Hidden only on xl	.d-xl-none
+Visible on all	    .d-block
+Visible only on xs	.d-block    .d-sm-none
+Visible only on sm	.d-none     .d-sm-block .d-md-none
+Visible only on md	.d-none     .d-md-block .d-lg-none
+Visible only on lg	.d-none     .d-lg-block .d-xl-none
+Visible only on xl	.d-none     .d-xl-block
 
 ## Style Content
 
@@ -156,5 +204,6 @@ To applie a grey font color we can use the text-muted
         Fancy display heading
         <small class="text-muted">With faded secondary text</small>
     </h3>
+
 
 
