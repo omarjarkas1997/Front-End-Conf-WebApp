@@ -144,6 +144,10 @@ Screen Size	Class.
         Visible only on lg	.d-none .d-lg-block .d-xl-none
         Visible only on xl	.d-none .d-xl-block
 
+To remove an image and only display it in small grids.
+
+    <div class="col-md col-xl-5 ml-auto d-none d-sm-block">
+
 ## Style Content
 
 Styling content using Bootstrap Content, Utility, and Typography classes.
@@ -205,5 +209,11 @@ To applie a grey font color we can use the text-muted
         <small class="text-muted">With faded secondary text</small>
     </h3>
 
+## Fixing the Navbar to the top of the page
 
+fixed-up.
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+
+# 
 
