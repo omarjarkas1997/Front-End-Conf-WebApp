@@ -39,7 +39,7 @@ It's 3 major components are:
     Rows
     Columns
 
-    `    <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-sm">
                 One of three columns
@@ -51,6 +51,6 @@ It's 3 major components are:
                 One of three columns
                 </div>
             </div>
-        </div>`
+        </div>
 
 
