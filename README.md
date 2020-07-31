@@ -35,22 +35,108 @@ Starting the App with intoduction to bootstrap components
 
 Bootstrap uses a 12 column system to organize the grid
 It's 3 major components are:
-    Containers
-    Rows
-    Columns
+    Containers.
+    Rows.
+    Columns.
 
-        <div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            1 of 2
+            </div>
+            <div class="col">
+            2 of 2
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+            1 of 3
+            </div>
+            <div class="col">
+            2 of 3
+            </div>
+            <div class="col">
+            3 of 3
+            </div>
+        </div>
+    </div>
+
+## Fuild vs non Fuild Container
+
+Fuild spans the whole page while non fuild centers in the middleware with a flexible width
+
+    <div class="container-fuild">
             <div class="row">
-                <div class="col-sm">
-                One of three columns
+                <div class="col">
+                1 of 2
                 </div>
-                <div class="col-sm">
-                One of three columns
+                <div class="col">
+                2 of 2
                 </div>
-                <div class="col-sm">
-                One of three columns
+            </div>
+            <div class="row">
+                <div class="col">
+                1 of 3
+                </div>
+                <div class="col">
+                2 of 3
+                </div>
+                <div class="col">
+                3 of 3
                 </div>
             </div>
         </div>
+
+## Style Content
+
+Styling content using Bootstrap Content, Utility, and Typography classes.
+
+## Utility
+
+For paddings and margins.
+For Setting the vertical and horizontal padding of an element.
+pt-4 for padding top 1.5 rem
+mb-4 applied a bottom margin 1.5 rem
+
+    <div class="container pt-4">
+    <h3 class="mb-4">About Full Stack Conf</h3>
+    <h3 class="mb-4">Expert Speakers</h3>
+    <img class="mb-4" src="../assets/img/pdx.jpg" alt="Portland">
+
+Border Radius.
+
+    <img class="mb-4 img-fluid rounded" src="../assets/img/pdx.jpg" alt="Portland">
+
+Notation.
+    m - for classes that set margin
+    p - for classes that set padding
+    Where sides is one of:
+
+    t - for classes that set margin-top or padding-top
+    b - for classes that set margin-bottom or padding-bottom
+    l - for classes that set margin-left or padding-left
+    r - for classes that set margin-right or padding-right
+    x - for classes that set both *-left and *-right
+    y - for classes that set both *-top and *-bottom
+    blank - for classes that set a margin or padding on all 4 sides of the element
+    Where size is one of:
+
+    0 - for classes that eliminate the margin or padding by setting it to 0
+    1 - (by default) for classes that set the margin or padding to $spacer * .25
+    2 - (by default) for classes that set the margin or padding to $spacer * .5
+    3 - (by default) for classes that set the margin or padding to $spacer
+    4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+    5 - (by default) for classes that set the margin or padding to $spacer * 3
+    auto - for classes that set the margin to auto
+
+## Opting Images for responsive behaivor
+
+Image fluid makes sure that the image is never bigger that is parent component
+    
+    <img class="mb-4 img-fluid" src="../assets/img/pdx.jpg" alt="Portland">
+
+## Text size and centering
+
+    <h1 class="display-4 text-center">Schedule</h1>
 
 
