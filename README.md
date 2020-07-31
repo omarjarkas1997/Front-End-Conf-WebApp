@@ -39,8 +39,18 @@ It's 3 major components are:
     Rows
     Columns
 
-
-      `One of three columns`
-
+    `    <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                One of three columns
+                </div>
+                <div class="col-sm">
+                One of three columns
+                </div>
+                <div class="col-sm">
+                One of three columns
+                </div>
+            </div>
+        </div>`
 
 
